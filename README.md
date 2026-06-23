@@ -5,8 +5,6 @@ This repository implements a complete, reproducible machine-learning pipeline fo
 
 The pipeline is designed around a single principle: spatially correlated hyperspectral data requires spatially-aware validation. Random pixel splitting leaks neighbour information across the train/test boundary and inflates accuracy. This implementation uses contiguous y-band splitting so the test set is a genuinely unseen spatial region.
 
-Developed at the Micro & Nano-scale Transport Laboratory, University of Waterloo (Mississauga).
-
 Key features
 
 
